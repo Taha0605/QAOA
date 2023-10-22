@@ -1,0 +1,13 @@
+References:
+
+https://www.mdpi.com/1999-4893/12/2/34
+https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.012320
+C:/Users/Taha/Downloads/sensors-22-07570-v2.pdf
+C:/Users/Taha/Downloads/2012.09265.pdf
+https://arxiv.org/pdf/2111.05176.pdf
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Linear%20Programming%20and%20Algorithms%20for%20Communication%20Networks_%20A%20Practical%20Guide%20to%20Network%20Design%2C%20Control%2C%20and%20Management%20%5BOki%202012-08-24%5D.pdf
+
+
+Tools:
+https://obliviateandsurrender.github.io/blogs/vqe.html
