@@ -1,0 +1,42 @@
+timestamp,message
+1697461662082,One run in QPU completed
+1697461694090,One run in QPU completed
+1697461724097,One run in QPU completed
+1697461754104,One run in QPU completed
+1697461783111,One run in QPU completed
+1697461815118,One run in QPU completed
+1697461845125,One run in QPU completed
+1697461874132,One run in QPU completed
+1697461903139,One run in QPU completed
+1697461931145,One run in QPU completed
+1697461978156,One run in QPU completed
+1697462008163,One run in QPU completed
+1697462039170,One run in QPU completed
+1697462069176,One run in QPU completed
+1697462112186,One run in QPU completed
+1697462143193,One run in QPU completed
+1697462172200,One run in QPU completed
+1697462201207,One run in QPU completed
+1697462230214,One run in QPU completed
+1697462263221,One run in QPU completed
+1697462303231,One run in QPU completed
+1697462332237,One run in QPU completed
+1697462361244,One run in QPU completed
+1697462396253,One run in QPU completed
+1697462427260,One run in QPU completed
+1697462454266,One run in QPU completed
+1697462483273,One run in QPU completed
+1697462524282,One run in QPU completed
+1697462552289,One run in QPU completed
+1697462582296,One run in QPU completed
+1697462620305,QAOA ends here
+1697462620305,"['10010', '01001', '10101']"
+1697462620305,[]
+1697462620305,Dijikstra Starts here
+1697462620305,Actual Cost =  11
+1697462620305,Djikstra ends here
+1697462620305,Approx_ratio =  1.0
+1697462620305,"['10010', '01001', '10101']"
+1697462620305,"Counter({'10101': 151, '10001': 75, '10111': 61, '00101': 54, '10011': 54, '11101': 53, '10100': 50, '11100': 41, '00001': 40, '10000': 39, '10010': 35, '00000': 34, '00111': 30, '11001': 28, '11011': 27, '01001': 24, '01000': 23, '00100': 21, '11000': 20, '01101': 17, '11010': 16, '00011': 15, '11111': 15, '10110': 14, '01100': 13, '00010': 11, '11110': 11, '00110': 10, '01011': 9, '01010': 5, '01111': 4})"
+1697462620305,Code Run Finished
+1697462620305,"2023-10-16 13:23:39,827 sagemaker-training-toolkit INFO     Reporting training SUCCESS"

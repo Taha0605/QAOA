@@ -1,0 +1,13 @@
+timestamp,message
+1696137016210,optimization ends here
+1696137016210,QAOA ends here
+1696137016210,Approximation ends here
+1696137016210,Approximation starts here
+1696137016210,QAOA starts here
+1696137016210,optimization starts here
+1696137137238,optimization ends here
+1696137137238,QAOA ends here
+1696137137239,Approximation ends here
+1696137137239,[1.0]
+1696137137239,Code Run Finished
+1696137137239,"2023-10-01 05:12:16,640 sagemaker-training-toolkit INFO     Reporting training SUCCESS"

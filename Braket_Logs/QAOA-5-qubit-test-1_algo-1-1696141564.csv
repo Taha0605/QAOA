@@ -1,0 +1,233 @@
+timestamp,message
+1696141609065,"2023-10-01 06:26:46,661 sagemaker-training-toolkit INFO     No GPUs detected (normal if no gpus installed)"
+1696141609065,"2023-10-01 06:26:46,662 sagemaker-training-toolkit INFO     No Neurons detected (normal if no neurons installed)"
+1696141609065,"2023-10-01 06:26:46,675 sagemaker-training-toolkit INFO     No GPUs detected (normal if no gpus installed)"
+1696141609065,"2023-10-01 06:26:46,676 sagemaker-training-toolkit INFO     No Neurons detected (normal if no neurons installed)"
+1696141609065,"2023-10-01 06:26:46,686 sagemaker-training-toolkit INFO     No GPUs detected (normal if no gpus installed)"
+1696141609065,"2023-10-01 06:26:46,687 sagemaker-training-toolkit INFO     No Neurons detected (normal if no neurons installed)"
+1696141609065,"2023-10-01 06:26:46,704 sagemaker-training-toolkit INFO     Invoking user script"
+1696141609065,Training Env:
+1696141609066,"{
+    ""additional_framework_parameters"": {},
+    ""channel_input_dirs"": {},
+    ""current_host"": ""algo-1"",
+    ""current_instance_group"": ""homogeneousCluster"",
+    ""current_instance_group_hosts"": [
+        ""algo-1""
+    ],
+    ""current_instance_type"": ""ml.m5.large"",
+    ""distribution_hosts"": [],
+    ""distribution_instance_groups"": [],
+    ""framework_module"": null,
+    ""hosts"": [
+        ""algo-1""
+    ],
+    ""hyperparameters"": {},
+    ""input_config_dir"": ""/opt/ml/input/config"",
+    ""input_data_config"": {},
+    ""input_dir"": ""/opt/ml/input"",
+    ""instance_groups"": [
+        ""homogeneousCluster""
+    ],
+    ""instance_groups_dict"": {
+        ""homogeneousCluster"": {
+            ""instance_group_name"": ""homogeneousCluster"",
+            ""instance_type"": ""ml.m5.large"",
+            ""hosts"": [
+                ""algo-1""
+            ]
+        }
+    },
+    ""is_hetero"": false,
+    ""is_master"": true,
+    ""is_modelparallel_enabled"": null,
+    ""is_smddpmprun_installed"": false,
+    ""job_name"": ""95c514c7-6a45-4342-b2aa-61008a512ef9"",
+    ""log_level"": 20,
+    ""master_hostname"": ""algo-1"",
+    ""model_dir"": ""/opt/ml/model"",
+    ""module_dir"": ""/opt/ml/code"",
+    ""module_name"": ""braket_container"",
+    ""network_interface_name"": ""eth0"",
+    ""num_cpus"": 2,
+    ""num_gpus"": 0,
+    ""num_neurons"": 0,
+    ""output_data_dir"": ""/opt/ml/output/data"",
+    ""output_dir"": ""/opt/ml/output"",
+    ""output_intermediate_dir"": ""/opt/ml/output/intermediate"",
+    ""resource_config"": {
+        ""current_host"": ""algo-1"",
+        ""current_instance_type"": ""ml.m5.large"",
+        ""current_group_name"": ""homogeneousCluster"",
+        ""hosts"": [
+            ""algo-1""
+        ],
+        ""instance_groups"": [
+            {
+                ""instance_group_name"": ""homogeneousCluster"",
+                ""instance_type"": ""ml.m5.large"",
+                ""hosts"": [
+                    ""algo-1""
+                ]
+            }
+        ],
+        ""network_interface_name"": ""eth0""
+    },
+    ""user_entry_point"": ""braket_container.py"""
+1696141609066,}
+1696141609066,Environment variables:
+1696141609066,"SM_HOSTS=[""algo-1""]"
+1696141609066,SM_NETWORK_INTERFACE_NAME=eth0
+1696141609066,SM_HPS={}
+1696141609066,SM_USER_ENTRY_POINT=braket_container.py
+1696141609066,SM_FRAMEWORK_PARAMS={}
+1696141609067,"SM_RESOURCE_CONFIG={""current_group_name"":""homogeneousCluster"",""current_host"":""algo-1"",""current_instance_type"":""ml.m5.large"",""hosts"":[""algo-1""],""instance_groups"":[{""hosts"":[""algo-1""],""instance_group_name"":""homogeneousCluster"",""instance_type"":""ml.m5.large""}],""network_interface_name"":""eth0""}"
+1696141609067,SM_INPUT_DATA_CONFIG={}
+1696141609067,SM_OUTPUT_DATA_DIR=/opt/ml/output/data
+1696141609067,SM_CHANNELS=[]
+1696141609067,SM_CURRENT_HOST=algo-1
+1696141609067,SM_CURRENT_INSTANCE_TYPE=ml.m5.large
+1696141609067,SM_CURRENT_INSTANCE_GROUP=homogeneousCluster
+1696141609067,"SM_CURRENT_INSTANCE_GROUP_HOSTS=[""algo-1""]"
+1696141609067,"SM_INSTANCE_GROUPS=[""homogeneousCluster""]"
+1696141609067,"SM_INSTANCE_GROUPS_DICT={""homogeneousCluster"":{""hosts"":[""algo-1""],""instance_group_name"":""homogeneousCluster"",""instance_type"":""ml.m5.large""}}"
+1696141609067,SM_DISTRIBUTION_INSTANCE_GROUPS=[]
+1696141609067,SM_IS_HETERO=false
+1696141609067,SM_MODULE_NAME=braket_container
+1696141609067,SM_LOG_LEVEL=20
+1696141609067,SM_FRAMEWORK_MODULE=
+1696141609067,SM_INPUT_DIR=/opt/ml/input
+1696141609067,SM_INPUT_CONFIG_DIR=/opt/ml/input/config
+1696141609067,SM_OUTPUT_DIR=/opt/ml/output
+1696141609067,SM_NUM_CPUS=2
+1696141609067,SM_NUM_GPUS=0
+1696141609067,SM_NUM_NEURONS=0
+1696141609067,SM_MODEL_DIR=/opt/ml/model
+1696141609067,SM_MODULE_DIR=/opt/ml/code
+1696141609067,"SM_TRAINING_ENV={""additional_framework_parameters"":{},""channel_input_dirs"":{},""current_host"":""algo-1"",""current_instance_group"":""homogeneousCluster"",""current_instance_group_hosts"":[""algo-1""],""current_instance_type"":""ml.m5.large"",""distribution_hosts"":[],""distribution_instance_groups"":[],""framework_module"":null,""hosts"":[""algo-1""],""hyperparameters"":{},""input_config_dir"":""/opt/ml/input/config"",""input_data_config"":{},""input_dir"":""/opt/ml/input"",""instance_groups"":[""homogeneousCluster""],""instance_groups_dict"":{""homogeneousCluster"":{""hosts"":[""algo-1""],""instance_group_name"":""homogeneousCluster"",""instance_type"":""ml.m5.large""}},""is_hetero"":false,""is_master"":true,""is_modelparallel_enabled"":null,""is_smddpmprun_installed"":false,""job_name"":""95c514c7-6a45-4342-b2aa-61008a512ef9"",""log_level"":20,""master_hostname"":""algo-1"",""model_dir"":""/opt/ml/model"",""module_dir"":""/opt/ml/code"",""module_name"":""braket_container"",""network_interface_name"":""eth0"",""num_cpus"":2,""num_gpus"":0,""num_neurons"":0,""output_data_dir"":""/opt/ml/output/data"",""output_dir"":""/opt/ml/output"",""output_intermediate_dir"":""/opt/ml/output/intermediate"",""resource_config"":{""current_group_name"":""homogeneousCluster"",""current_host"":""algo-1"",""current_instance_type"":""ml.m5.large"",""hosts"":[""algo-1""],""instance_groups"":[{""hosts"":[""algo-1""],""instance_group_name"":""homogeneousCluster"",""instance_type"":""ml.m5.large""}],""network_interface_name"":""eth0""},""user_entry_point"":""braket_container.py""}"
+1696141609067,SM_USER_ARGS=[]
+1696141609067,SM_OUTPUT_INTERMEDIATE_DIR=/opt/ml/output/intermediate
+1696141609067,PYTHONPATH=/opt/ml/code:/usr/local/bin:/usr/local/lib/python310.zip:/usr/local/lib/python3.10:/usr/local/lib/python3.10/lib-dynload:/usr/local/lib/python3.10/site-packages
+1696141609068,Invoking script with the following command:
+1696141609068,/usr/local/bin/python3.10 braket_container.py
+1696141609068,"2023-10-01 06:26:46,705 sagemaker-training-toolkit INFO     Exceptions not imported for SageMaker Debugger as it is not installed."
+1696141609068,"2023-10-01 06:26:46,706 sagemaker-training-toolkit INFO     Exceptions not imported for SageMaker TF as Tensorflow is not installed."
+1696141609068,Boto3 Version:  1.28.53
+1696141609068,Beginning Setup
+1696141609068,Checking for Additional Requirements
+1696141609068,Additional Requirements Check Finished
+1696141609068,Running Code As Subprocess
+1696141609068,Requirement already satisfied: matplotlib in /usr/local/lib/python3.10/site-packages (3.6.3)
+1696141609068,"Collecting matplotlib
+  Obtaining dependency information for matplotlib from https://files.pythonhosted.org/packages/b5/24/aaccf324ce862bb82277e8814d2aebbb2a2c160d04e95aa2b8c9dc3137a9/matplotlib-3.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading matplotlib-3.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)"
+1696141609068,Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/site-packages (from matplotlib) (1.1.1)
+1696141609068,Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/site-packages (from matplotlib) (0.11.0)
+1696141609068,Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/site-packages (from matplotlib) (4.42.1)
+1696141609068,Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/site-packages (from matplotlib) (1.4.5)
+1696141609068,"Requirement already satisfied: numpy<2,>=1.21 in /usr/local/lib/python3.10/site-packages (from matplotlib) (1.23.5)"
+1696141609068,Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/site-packages (from matplotlib) (23.1)
+1696141609068,Requirement already satisfied: pillow>=6.2.0 in /usr/local/lib/python3.10/site-packages (from matplotlib) (10.0.1)
+1696141609068,Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/site-packages (from matplotlib) (3.1.1)
+1696141609068,Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/site-packages (from matplotlib) (2.8.2)
+1696141609068,Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+1696141609068,"Downloading matplotlib-3.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 100.3 MB/s eta 0:00:00"
+1696141609068,"Installing collected packages: matplotlib
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.6.3
+    Uninstalling matplotlib-3.6.3:"
+1696141610069,      Successfully uninstalled matplotlib-3.6.3
+1696141611069,Successfully installed matplotlib-3.8.0
+1696141611069,WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+1696141611069,Successfully installed matplotlib
+1696141612070,Requirement already satisfied: numpy in /usr/local/lib/python3.10/site-packages (1.23.5)
+1696141612070,"Collecting numpy
+  Obtaining dependency information for numpy from https://files.pythonhosted.org/packages/9b/5a/f265a1ba3641d16b5480a217a6aed08cceef09cd173b568cd5351053472a/numpy-1.26.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading numpy-1.26.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.5/58.5 kB 2.2 MB/s eta 0:00:00"
+1696141612070,Downloading numpy-1.26.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+1696141613071,   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 63.8 MB/s eta 0:00:00
+1696141613071,"Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.23.5
+    Uninstalling numpy-1.23.5:"
+1696141614071,      Successfully uninstalled numpy-1.23.5
+1696141616072,ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+1696141616072,"pennylane 0.31.0 requires numpy<1.24, but you have numpy 1.26.0 which is incompatible."
+1696141616072,"scipy 1.9.3 requires numpy<1.26.0,>=1.18.5, but you have numpy 1.26.0 which is incompatible."
+1696141616072,Successfully installed numpy-1.26.0
+1696141616072,WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+1696141616072,Successfully installed numpy
+1696141616072,Requirement already satisfied: scipy in /usr/local/lib/python3.10/site-packages (1.9.3)
+1696141617072,"Collecting scipy
+  Obtaining dependency information for scipy from https://files.pythonhosted.org/packages/18/44/7e8d208eb59a8224fcc474415104f13be9b378be8da63f76dfde12ec2b44/scipy-1.11.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading scipy-1.11.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 kB 1.6 MB/s eta 0:00:00"
+1696141617072,"Requirement already satisfied: numpy<1.28.0,>=1.21.6 in /usr/local/lib/python3.10/site-packages (from scipy) (1.26.0)"
+1696141617072,"Downloading scipy-1.11.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.4/36.4 MB 51.2 MB/s eta 0:00:00"
+1696141618073,"Installing collected packages: scipy
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.9.3
+    Uninstalling scipy-1.9.3:"
+1696141619073,      Successfully uninstalled scipy-1.9.3
+1696141622092,ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+1696141622092,"pennylane 0.31.0 requires numpy<1.24, but you have numpy 1.26.0 which is incompatible."
+1696141622092,"pennylane 0.31.0 requires scipy<=1.10, but you have scipy 1.11.3 which is incompatible."
+1696141622092,Successfully installed scipy-1.11.3
+1696141622092,WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+1696141622092,Successfully installed scipy
+1696141623092,"Collecting pyqubo
+  Downloading pyqubo-1.4.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (245 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 245.3/245.3 kB 5.1 MB/s eta 0:00:00"
+1696141623092,Requirement already satisfied: numpy>=1.17.3 in /usr/local/lib/python3.10/site-packages (from pyqubo) (1.26.0)
+1696141624093,"Collecting dimod<0.13,>=0.9.14 (from pyqubo)
+  Obtaining dependency information for dimod<0.13,>=0.9.14 from https://files.pythonhosted.org/packages/ac/d1/a497cba0a0ca25b02ed373b344a63a16738995cde84768d5c65fb6b3b096/dimod-0.12.12-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading dimod-0.12.12-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)"
+1696141624093,Collecting dwave-neal>=0.5.7 (from pyqubo)
+1696141625093,  Downloading dwave_neal-0.6.0-py3-none-any.whl (8.7 kB)
+1696141625093,"Collecting Deprecated>=1.2.12 (from pyqubo)
+  Obtaining dependency information for Deprecated>=1.2.12 from https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl.metadata
+  Downloading Deprecated-1.2.14-py2.py3-none-any.whl.metadata (5.4 kB)"
+1696141625093,Requirement already satisfied: six>=1.15.0 in /usr/local/lib/python3.10/site-packages (from pyqubo) (1.16.0)
+1696141625093,"Collecting wrapt<2,>=1.10 (from Deprecated>=1.2.12->pyqubo)
+  Downloading wrapt-1.15.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 kB 21.1 MB/s eta 0:00:00"
+1696141625093,"Collecting dwave-samplers<2.0.0,>=1.0.0 (from dwave-neal>=0.5.7->pyqubo)
+  Obtaining dependency information for dwave-samplers<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/2e/61/18adc0a728fe8303b6d269a97f1dcb5ad85e51167e23a9d95cc169ac4341/dwave_samplers-1.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading dwave_samplers-1.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.9 kB)"
+1696141625094,"Requirement already satisfied: networkx>=2.4.0 in /usr/local/lib/python3.10/site-packages (from dwave-samplers<2.0.0,>=1.0.0->dwave-neal>=0.5.7->pyqubo) (3.1)"
+1696141625094,Downloading Deprecated-1.2.14-py2.py3-none-any.whl (9.6 kB)
+1696141625094,"Downloading dimod-0.12.12-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.1/16.1 MB 83.0 MB/s eta 0:00:00"
+1696141625094,"Downloading dwave_samplers-1.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 85.7 MB/s eta 0:00:00"
+1696141626095,"Installing collected packages: wrapt, dimod, dwave-samplers, Deprecated, dwave-neal, pyqubo"
+1696141627095,Successfully installed Deprecated-1.2.14 dimod-0.12.12 dwave-neal-0.6.0 dwave-samplers-1.1.0 pyqubo-1.4.0 wrapt-1.15.0
+1696141627095,WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+1696141627095,Successfully installed pyqubo
+1696141627095,Requirement already satisfied: networkx in /usr/local/lib/python3.10/site-packages (3.1)
+1696141628096,WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+1696141628096,Successfully installed networkx
+1696141630144,code starts here
+1696141630144,QAOA starts here
+1696141630144,optimization starts here
+1696141746172,optimization ends here
+1696141746172,QAOA ends here
+1696141746172,interation number:  1
+1696141746172,Approximation starts here
+1696141746172,QAOA starts here
+1696141746172,optimization starts here
+1696141861199,optimization ends here
+1696141861199,QAOA ends here
+1696141861199,Approximation ends here
+1696141861199,Approximation starts here
+1696141861199,QAOA starts here
+1696141861199,optimization starts here
+1696141971236,optimization ends here
+1696141971236,QAOA ends here
+1696141971236,Approximation ends here
+1696141971236,[1.0]
+1696141972236,Code Run Finished
+1696141972236,"2023-10-01 06:32:51,514 sagemaker-training-toolkit INFO     Reporting training SUCCESS"
